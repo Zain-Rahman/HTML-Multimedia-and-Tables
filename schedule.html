@@ -1,0 +1,184 @@
+<!--
+	Name: Zain Rahman
+	File: schedule.html
+	Date: Feburary 8th, 2026
+    A very brief description of the file:
+	Weekly Schedule table for Assignment 2.
+-->
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>MMa Training Schedule</title>
+    <style>
+        table {
+            width: 95%;
+            margin: auto;
+            border-collapse: collapse;
+            font-family: arial,sans-serif;
+        }
+        caption {
+            margin: 10px;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        th, td {
+            border: 1px solid #444;
+            padding: 10px;
+            text-align: center;
+        }
+        thead {
+            background: #aa0000;
+            color: white;
+        }
+        tbody tr:nth-child(even) {
+            background: #222;
+        }
+        tbody tr:nth-child(odd) {
+            background: #111;
+        }
+    </style>
+</head>
+
+<body>
+
+<table aria-label="Weekly Schedule Table">
+    <caption> My Weekly MMA Training & Class schedule </caption>
+
+    <thead> 
+        <tr>
+            <th>Time</th>
+            <th>Monday</th>
+            <th>Tuesday</th>
+            <th>Wednesday</th>
+            <th>Thursday</th>
+            <th>Friday</th>
+        </tr>
+    </thead>
+
+    <tbody>
+
+        <!-- Example of rowspan (2-hour class) -->
+         <tr> 
+            <td> 8:00 AM</td>
+            <td rowspan="2">Stength Training</td>
+            <td>Open Gym</td>
+            <td rowspan="2">Cardio Conditioning</td>
+            <td>Rest</td>
+            <td rowspan="2">Kickboxing Drills</td>
+        </tr>
+
+                <tr>
+            <td>9:00 AM</td>
+            <td>Techniques Review</td>
+            <td>Warm-up Drills</td>
+        </tr>
+
+        <tr>
+            <td>10:00 AM</td>
+            <td>Wrestling Practice</td>
+            <td>Sparring Prep</td>
+            <td>Film Study</td>
+            <td>Strength Training</td>
+            <td>Open Gym</td>
+        </tr>
+
+        <tr>
+            <td>11:00 AM</td>
+            <td>BJJ Training</td>
+            <td>Cardio</td>
+            <td>Open Mat</td>
+            <td>Pad Work</td>
+            <td>BJJ Rolling</td>
+        </tr>
+
+        <!-- Example of colspan (lunch break across all days) -->
+        <tr>
+            <td>12:00 PM</td>
+            <td colspan="5">Lunch Break</td>
+        </tr>
+
+        <tr>
+            <td>1:00 PM</td>
+            <td>Kickboxing</td>
+            <td>Wrestling</td>
+            <td>Sparring</td>
+            <td>Techniques</td>
+            <td>Strength</td>
+        </tr>
+
+        <tr>
+            <td>2:00 PM</td>
+            <td>Sparring</td>
+            <td>BJJ</td>
+            <td>Rest</td>
+            <td>Pad Work</td>
+            <td>Film Review</td>
+        </tr>
+
+        <tr>
+            <td>3:00 PM</td>
+            <td>Open Gym</td>
+            <td>Kickboxing</td>
+            <td>Strength</td>
+            <td>Rest</td>
+            <td>Open Mat</td>
+        </tr>
+
+        <tr>
+            <td>4:00 PM</td>
+            <td>Conditioning</td>
+            <td>Open Gym</td>
+            <td>Pad Work</td>
+            <td>Sparring</td>
+            <td>Rest</td>
+        </tr>
+
+        <tr>
+            <td>5:00 PM</td>
+            <td>Rest</td>
+            <td>Cardio</td>
+            <td>Strength</td>
+            <td>Open Mat</td>
+            <td>Kickboxing</td>
+        </tr>
+
+        <tr>
+            <td>6:00 PM</td>
+            <td>Open Mat</td>
+            <td>Film Study</td>
+            <td>Rest</td>
+            <td>Conditioning</td>
+            <td>Sparring</td>
+        </tr>
+
+        <tr>
+            <td>7:00 PM</td>
+            <td>Kickboxing</td>
+            <td>Sparring</td>
+            <td>BJJ</td>
+            <td>Rest</td>
+            <td>Open Gym</td>
+        </tr>
+
+        <tr>
+            <td>8:00 PM</td>
+            <td>Cardio</td>
+            <td>Open Mat</td>
+            <td>Kickboxing</td>
+            <td>Sparring</td>
+            <td>Conditioning</td>
+        </tr>
+
+        <tr>
+            <td>9:00 PM</td>
+            <td>End</td>
+            <td>End</td>
+            <td>End</td>
+            <td>End</td>
+            <td>End</td>
+        </tr>
+            
+    </tbody>
+</table>
+</body>
